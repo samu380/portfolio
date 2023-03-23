@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  font-family: "sanspro", "arial";
+  font-size: 1rem;
+  color: var(--dark);
+}
+
+body {
+  background-color: #efefef;
+}
+
+h3 {
+  color: #9b9898;
+  font-weight: 300;
+}
+
+.headline {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+
+  &--bold {
+    font-weight: 800;
+  }
+
+  &--main {
+    font-family: "raleway-bold";
+    font-size: 1.3rem;
+  }
+
+  &--link {
+    font-size: 0.8rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.headline-bold {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 800;
+}
+
+.headline-link {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.headline-big {
+  text-transform: uppercase;
+  font-family: "raleway-bold";
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+}

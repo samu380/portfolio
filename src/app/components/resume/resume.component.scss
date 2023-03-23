@@ -1,0 +1,30 @@
+@use "../../../styles/mixin" as *;
+
+.container {
+  @include resume-bg;
+}
+
+.nav {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  gap: 2rem;
+  margin: 0.3rem;
+  list-style-type: circle;
+  list-style-position: inside;
+
+  a {
+    @include nav-links;
+    position: relative;
+
+    &:hover {
+      font-weight: 800;
+      color: rgb(98, 98, 247);
+    }
+  }
+}

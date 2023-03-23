@@ -1,0 +1,6 @@
+<div [ngClass]="router.url == '/' ? 'container' : 'container1'">
+  <img [src]="image" alt="" />
+  <h1 class="headline">{{ name }}</h1>
+  <h3 *ngIf="router.url === '/'">{{ desc }}</h3>
+  <app-social-links></app-social-links>
+</div>

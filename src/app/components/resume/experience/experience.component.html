@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="resume__heading">Berufserfahrung</div>
+  <div *ngFor="let exp of experience">
+    <div class="test">
+      <h2>{{ exp.company }} - {{ exp.companyLocation }}</h2>
+      <div>
+        <h3>{{ exp.position | uppercase }}</h3>
+        <h3>{{ exp.from | date }} - {{ exp.to | date }}</h3>
+      </div>
+    </div>
+    <div>
+      <ul *ngFor="let task of exp.tasks">
+        <li>{{ task }}</li>
+      </ul>
+    </div>
+  </div>
+</div>

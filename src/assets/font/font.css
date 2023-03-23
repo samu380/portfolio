@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "sanspro";
+  src: url("./fonts/SansPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "raleway";
+  src: url("./fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "raleway-bold";
+  src: url("./fonts/Raleway-Bold.ttf") format("truetype");
+}

@@ -1,0 +1,21 @@
+@use "../../../styles/mixin" as *;
+
+.container {
+  ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 1rem;
+
+    li {
+      list-style-type: none;
+    }
+    a {
+      @include nav-links;
+    }
+    :hover {
+      transition: all ease 0.3s;
+      transform: scale(1.1);
+    }
+  }
+}
